@@ -5,6 +5,8 @@ class Do < Formula
   sha256 ""
   license "GPL-3.0"
 
+  depends_on "borkdude/brew/babashka"
+
   def install
     bin.install "bb/doit"
   end
