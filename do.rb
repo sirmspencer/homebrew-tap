@@ -10,4 +10,4 @@ class Do < Formula
   def install
     bin.install "bb/doit"
   end
-end 
+end
