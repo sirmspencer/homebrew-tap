@@ -1,28 +1,28 @@
 class Pgfmt < Formula
   desc "Formatter for PostgreSQL sql files"
   homepage "https://github.com/sirmspencer/pgfmt"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.5/pgfmt-darwin-arm64.tar.gz"
-      sha256 "ea91078244252ab2de905b99716d5f34fea25bdcf471dcb2f0efa7d597d757a3"
+      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.6/pgfmt-darwin-arm64.tar.gz"
+      sha256 "ff0161c16534f71cb4379309edddf3178d8859178dff9a8af34a698bdaea8c8d"
     end
     on_intel do
-      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.5/pgfmt-darwin-amd64.tar.gz"
-      sha256 "146438bfdebe5a0831137794685f44429fe5fc998353c78c51257db03bb44620"
+      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.6/pgfmt-darwin-amd64.tar.gz"
+      sha256 "6ac595f80f3a73abdbecb241cc6b9226c44ea86323f6b0d81c1f131372a1cd8b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.5/pgfmt-linux-arm64.tar.gz"
-      sha256 "10c982030997390bb18b7483b1213df8239f2ebbf1ed20f613c0c41d16116bad"
+      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.6/pgfmt-linux-arm64.tar.gz"
+      sha256 "284278f34da3cd89181256aacfc9d506ba363c5da7901ca9e524991dc2ab646a"
     end
     on_intel do
-      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.5/pgfmt-linux-amd64.tar.gz"
-      sha256 "2462abfafd497f82496c98e5ee483f6458c2829f7a7b839c3fd2814d5cdb13cb"
+      url "https://github.com/sirmspencer/pgfmt/releases/download/v0.1.6/pgfmt-linux-amd64.tar.gz"
+      sha256 "d4ce23108b5928d3513b48c4d65fa504a010d92a02031668c48ea1d98738555c"
     end
   end
 
