@@ -1,28 +1,28 @@
 class CljKondoFix < Formula
   desc "Auto-fix Clojure code based on clj-kondo findings"
   homepage "https://github.com/sirmspencer/clj-kondo-fix"
-  version "0.2.1"
+  version "0.2.3"
   license "EPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.1/clj-kondo-fix-darwin-arm64.tar.gz"
-      sha256 "487f8a6425136564a33ce7bfc9ab9543c9f10aa850a19eb87601e2b4e28f1ffd"
+      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.3/clj-kondo-fix-darwin-arm64.tar.gz"
+      sha256 "49ebb2ccaa3be522f68115cc3935a7c4de92cd93e174cf71817f50b8b547a604"
     end
     on_intel do
-      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.1/clj-kondo-fix-darwin-amd64.tar.gz"
-      sha256 "88d1d569aa6a1e432ad18816b56fa4de27c9c71c9819ce64ce9cdd8a81f6e1e4"
+      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.3/clj-kondo-fix-darwin-amd64.tar.gz"
+      sha256 "908c943b7687537caac393300dad9b1abec885401a0f45b89c4803a55f14b8a9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.1/clj-kondo-fix-linux-arm64.tar.gz"
-      sha256 "be78e349bc86cdc35aa2e280bbb7242d09df73034abfc0da704bd56effe3009f"
+      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.3/clj-kondo-fix-linux-arm64.tar.gz"
+      sha256 "ea5a866e4e5febf51812a8ae042d7ed5cb9b4020b2ea68bb1a06ebfa5924913f"
     end
     on_intel do
-      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.1/clj-kondo-fix-linux-amd64.tar.gz"
-      sha256 "b28d699d5495321eb91e2783b0093cfbeb5886a1653f46b06880dc88b413d1e7"
+      url "https://github.com/sirmspencer/clj-kondo-fix/releases/download/v0.2.3/clj-kondo-fix-linux-amd64.tar.gz"
+      sha256 "755ffc23209d9dde131ea1555ea0e2512ebd55680e8e50c7c20a5989ab78be36"
     end
   end
 
